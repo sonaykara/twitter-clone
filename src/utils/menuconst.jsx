@@ -183,3 +183,66 @@ export const AppMenu = [
     },
   },
 ];
+
+export const topics = [
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'tag',
+			value: 'Seren Serengil'
+		}
+	},
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'query',
+			value: 'Bankalar'
+		},
+		postCount: 15640
+	},
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'tag',
+			value: 'Audi AS'
+		}
+	},
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'query',
+			value: 'ZAHA'
+		},
+		postCount: 15640
+	},
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'tag',
+			value: 'IBAN'
+		}
+	},
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'query',
+			value: 'Ahmet Hakan'
+		},
+		postCount: 15640
+	},
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'tag',
+			value: 'Nobel'
+		}
+	},
+	{
+		title: 'Türkiye tarihinde gündemde',
+		topic: {
+			type: 'query',
+			value: 'Glatasaray Lisesi'
+		},
+		postCount: 15640
+	}
+]
