@@ -1,9 +1,9 @@
 import { NavLink } from "react-router-dom";
 import classNames from "classnames";
-import { AppMenu } from "../../../utils/menuconst";
+import { AppMenu } from "../../../../utils/menuconst";
 import New from "../new/new";
 import More from "../more/more";
-import { useAccount } from "../../../store/auth/hooks";
+import { useAccount } from "../../../../store/auth/hooks";
 
 export default function Menu() {
 

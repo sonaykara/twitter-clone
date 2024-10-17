@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import SideBar from "../sidebar/SideBar";
-import RightBar from "../rightbar/SideBar";
+import SideBar from "./sidebar/SideBar";
+import RightBar from "./rightbar/SideBar";
 
 const AppLayout = () => {
   return (

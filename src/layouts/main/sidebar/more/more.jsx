@@ -1,8 +1,8 @@
 
 import classNames from "classnames";
 
-import { useAccount, useAccounts } from "../../../store/auth/hooks";
-import { setCurrentAccount } from "../../../store/auth/actions";
+import { useAccount, useAccounts } from "../../../../store/auth/hooks";
+import { setCurrentAccount } from "../../../../store/auth/actions";
 
 
 export default function More({ close }) {

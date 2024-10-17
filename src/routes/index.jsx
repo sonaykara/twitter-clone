@@ -1,12 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
-import Home from "../pages/Home/Home";
+import Home from "../pages/home/Home";
 import Explore from "../pages/expolore/Explore";
 import Notifications from "../pages/notifications/Notifications";
-import AppLayout from "../layouts/App/AppLayout";
-import Messages from "../pages/messages";
-import Lists from "../pages/lists";
-import Bookmarks from "../pages/Bookmarks";
-import Profile from "../pages/profile";
+import AppLayout from "../layouts/main/AppLayout";
+import Messages from "../pages/messages/index";
+import Lists from "../pages/lists/index";
+import Bookmarks from "../pages/bookmarks/index";
+import Profile from "../pages/profile/index";
 
 
 const routes = createBrowserRouter([

@@ -1,5 +1,5 @@
 import {Popover, Transition} from "@headlessui/react";
-import { useAccount } from "../../../store/auth/hooks";
+import { useAccount } from "../../../../store/auth/hooks";
 import More from "../more/more";
 export default function Account() {
 	const account = useAccount()
